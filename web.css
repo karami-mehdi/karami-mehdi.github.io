@@ -1,7 +1,5 @@
 html,
 body {
-    /* background: rgb(4, 1, 26); */
-    
     white-space: nowrap;
     
     font-family: Arial, sans-serif;
@@ -36,8 +34,6 @@ body::-webkit-scrollbar {
 }
 
 .card-container {
-    /* background-color:  rgb(28, 19, 65); */
-    
     overflow-x: auto;
         
     padding-left: 40px;
