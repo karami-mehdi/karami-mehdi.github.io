@@ -20,6 +20,29 @@ body::-webkit-scrollbar {
     padding: 20px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar a.active {
+    color: black;
+}
+
 .button-container button {
     padding: 10px 20px; 
     margin-right: 10px; 
