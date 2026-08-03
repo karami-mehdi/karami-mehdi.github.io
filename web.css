@@ -63,6 +63,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -187,7 +188,6 @@ main {
 
 .profile-image-container {
   display: flex;
-  justify-content: center;
   align-items: flex-end;
   gap: 30px;
 }
@@ -232,12 +232,16 @@ footer {
     font-size: small;
   }
 
-  .navbar {
-    gap: 1rem;
+  .profile-image-container {
+    gap: 40px;
   }
 
-  .navbar a {
-    font-size: small;
+  .profile-image-container h1 {
+    font-size: xx-large;
+  }
+
+  .profile-image-container p {
+    font-size: medium;
   }
 
   .home {
@@ -250,20 +254,8 @@ footer {
     gap: 10px;
   }
 
-  .profile-section {
-    gap: 0px;
-  }
-
-  .profile-image-container {
-    gap: 25px;
-  }
-
-  .profile-image {
-    width: 130px;
-  }
-
   .social-icons {
-    gap: 7px;
+    gap: 15px;
   }
 }
 
