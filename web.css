@@ -5,6 +5,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    margin: 0;
 }
 
 body::-webkit-scrollbar {
@@ -40,6 +46,10 @@ body::-webkit-scrollbar {
 
 .navbar a.active {
     color: black;
+}
+
+main {
+    flex: 1;
 }
 
 .button-container button {
@@ -155,39 +165,38 @@ body::-webkit-scrollbar {
     padding-bottom: 100px;
 }
 
-.mail-button {
-    left: 35%;
-}
-
-.linkedin-button {
-    left: 50%;
-}
-
-.telegram-button {
-    left: 65%;
-}
-
 .profile-image-container {
-    background-size: 50px 30px;
     display: flex;
     justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    align-items: flex-end;
+    padding: 80px;
     gap: 30px;
 }
 
 
 .profile-image {
-    width: 200pt;
+    width: 150px;
+    object-fit: scale-down;
+
 }
 
 .profile-title {
     text-align: left;
-    font-size: 50px;
+    font-size: 33.5px;
     font-weight: bold;
  }
+ 
+ .social-icons {
+    display: flex;
+    gap: 15px;
+}
 
- footer {
+.social-icons i {
+    color: black;
+    font-size: 25px;
+}
+
+footer {
     text-align: center;
     padding: 5px;
     color: gray;
