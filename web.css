@@ -1,7 +1,5 @@
 html,
 body {
-    white-space: nowrap;
-    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -53,6 +51,17 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
+    width: 1250px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .button-container button {
@@ -176,7 +185,7 @@ main {
 }
 
 .profile-section {
-    margin-top: 80px;
+    margin-top: 30px;
     display: inline-flex;
     flex-direction: column;
     gap: 12px;
