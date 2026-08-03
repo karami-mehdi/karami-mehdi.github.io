@@ -1,3 +1,7 @@
+/* {
+    outline: 1px solid red;
+} */
+
 html,
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -24,18 +28,6 @@ header {
     gap: 3rem;
     padding: 1rem 0;
     border-bottom: 1px solid #ddd;
-}
-
-@media (max-width: 600px) {
-    .navbar {
-        gap: 2rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .navbar {
-        gap: 1rem;
-    }
 }
 
 .navbar a {
@@ -70,13 +62,6 @@ main {
     flex-direction: row;
     padding: 30px; 
     gap: 50px;
-}
-
-@media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-        gap: 20px;
-    }
 }
 
 .button-container button {
@@ -210,12 +195,6 @@ main {
     width: 150px;
     object-fit: scale-down;
 }
-
-.profile-title {
-    text-align: left;
-    font-size: 33.5px;
-    font-weight: bold;
- }
  
  .social-icons {
     display: flex;
@@ -243,4 +222,36 @@ footer {
     padding-bottom: 5px;
     color: gray;
     border-top: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: smaller;
+    }
+    
+    .navbar {
+        gap: 1rem;
+    }
+
+    .navbar a {
+        font-size: smaller;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .profile-image-container {
+        gap: 10px;
+    }
+
+    .profile-image {
+        width: 130px;
+    }
+
+    .social-icons {
+        gap: 7px;
+    }
 }
