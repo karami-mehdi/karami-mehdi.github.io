@@ -227,7 +227,7 @@ footer {
   border-top: 1px solid #ddd;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
   body {
     font-size: small;
   }
