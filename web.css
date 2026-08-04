@@ -259,13 +259,12 @@ footer {
   }
 }
 
-.cv-page {
-  width: 100%;
-  max-width: 1250px;
+.cv-container {
   padding-bottom: 1px;
 }
 
 embed {
   width: 100%;
-  min-height: 2200pt;
+  height: 3100px;
+  border: none;
 }
