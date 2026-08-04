@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
     <link rel="stylesheet" href="web.css" />
     <title>CV | Mehdi Karami</title>
   </head>
@@ -19,7 +20,13 @@
     </header>
 
     <main class="cv-page">
-      <iframe src="https://karami-mehdi.github.io/CV/CV.pdf"> </iframe>
+      <!-- <div id="adobe-dc-view"></div> -->
+      <!-- <iframe
+      src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https%3A%2F%2Fkarami-mehdi.github.io%2FCV%2FCV.pdf">
+    </iframe> -->
+
+      <iframe id="iframe_pdfjs" src="/pdfjs/web/viewer.html?file=https%3A%2F%2Fkarami-mehdi.github.io%2FCV%2FCV.pdf">
+      </iframe>
     </main>
 
     <footer>
